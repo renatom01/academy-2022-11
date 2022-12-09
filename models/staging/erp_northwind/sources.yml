@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: erp 
+    description: banco replica do erp da northwind
+    schema: erp_northwind
+    tables:
+      - name: orders
+        description: uma linha por pedido
+        columns:
+          - name: order_id
+            description: chave primária da tabela de ordens
+            tests: 
+              - unique
+              - not_null
+
+      - name: products
+
+      - name: categories
+
+      - name: suppliers
+        
