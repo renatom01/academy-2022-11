@@ -5,7 +5,8 @@ models:
    description: dimensao com informação de com categorias e fornecedores.
    columns: 
     - name: sk_produto
-      description: é a primary key da dimensão de       tests: 
+      description: é a primary key da dimensão de       
+      tests: 
        - unique
        - not_null
     - name: id_produto
