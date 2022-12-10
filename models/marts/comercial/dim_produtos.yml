@@ -2,31 +2,32 @@ version: 2
 
 models:
   - name: dim_produtos
-   description: dimensao com informação de com categorias e fornecedores.
-   columns: 
-    - name: sk_produto
-      description: é a primary key da dimensão de       
-      tests: 
+    description: dimensao com informacao de com categorias e fornecedores.
+    columns: 
+     - name: sk_produto
+       description: é a primary key da dimensao de       
+       tests: 
        - unique
        - not_null
-    - name: id_produto
-    - name: id_fornecedor
-    - name: id_categoria		
-    - name: nome_produto			
-    - name: quantidade_por_produto		
-    - name: preco_unitario	
-    - name: unidades_no_estoque
-    - name: unidades_por_ordem
-    - name: level_de_pedido			
-    - name: nome_categoria				
-    - name: descricao		
-    - name: nome_do_fornecedor				
-    - name: contato_do_fornecedor							
-    - name: titulo_contato		
-    - name: endereco		
-    - name: cidade		
-    - name: regiao		
-    - name: cep		
-    - name: pais		
-    - name: telefone			
-    - name: fax
+
+     - name: id_produto
+     - name: id_fornecedor
+     - name: id_categoria		
+     - name: nome_produto			
+     - name: quantidade_por_produto		
+     - name: preco_unitario	
+     - name: unidades_no_estoque
+     - name: unidades_por_ordem
+     - name: level_de_pedido			
+     - name: nome_categoria				
+     - name: descricao		
+     - name: nome_do_fornecedor				
+     - name: contato_do_fornecedor							
+     - name: titulo_contato		
+     - name: endereco		
+     - name: cidade		
+     - name: regiao		
+     - name: cep		
+     - name: pais		
+     - name: telefone			
+     - name: fax
